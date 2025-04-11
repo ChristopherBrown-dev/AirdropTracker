@@ -1,0 +1,10 @@
+node_modules/
+.claude
+*.log
+dist/
+.env
+build/
+coverage/
+CLAUDE.md
+.DS_Store
+package-lock.json

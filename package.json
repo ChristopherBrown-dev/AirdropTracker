@@ -1,0 +1,26 @@
+{
+  "name": "airdrop-tracker",
+  "version": "0.1.0",
+  "description": "Track and manage cryptocurrency airdrop opportunities",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "crypto",
+    "airdrop",
+    "tracker",
+    "web3"
+  ],
+  "author": "ChristopherBrown-dev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
