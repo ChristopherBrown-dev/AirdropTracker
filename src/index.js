@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 const airdropRoutes = require('./routes/airdrops');
 const trackingRoutes = require('./routes/tracking');
+const adminRoutes = require('./routes/admin');
 
 app.use(express.json());
 
@@ -28,6 +29,7 @@ app.get('/', (req, res) => {
 
 app.use('/airdrops', airdropRoutes);
 app.use('/tracking', trackingRoutes);
+app.use('/admin', adminRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
